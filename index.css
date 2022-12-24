@@ -9,6 +9,7 @@ body {
   overflow: hidden;
   background-color: #323232;
   color: #fff;
+  font-family: "JetBrains mono";
 }
 
 .level {

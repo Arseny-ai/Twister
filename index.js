@@ -2,7 +2,7 @@ const players = []
 const limbs = ["Левая нога", "Правая нога", "Левая рука", "Правая рука"]
 const colors = ["#BE1F35", "#558A33", "#4470EA", "#F9CB0F"]
 
-const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+const random = (min, max) => Math.floor(Math.random() * 10**(`${max}`.length)) % (max);
 
 function addPlayer () {
   const input = document.querySelector('#getPlayer')
