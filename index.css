@@ -20,6 +20,10 @@ body {
   flex-direction: column;
 }
 
+.level2 {
+  font-size: 20px;
+}
+
 h1 {
   font-size: 40px;
 }
@@ -38,6 +42,8 @@ h1 {
   transition: .3s background-color;
 }
 
-.element:hover, .element:active, .element:focus {
+.element:hover,
+.element:active,
+.element:focus {
   background-color: #3331;
 }
