@@ -22,7 +22,10 @@ body {
 
 .level2 {
   font-size: 20px;
+  transition: .3s background-color;
+  filter: brightness(90%);
 }
+
 
 h1 {
   font-size: 40px;
@@ -34,7 +37,7 @@ h1 {
 
 .element {
   padding: 10px 20px;
-  background-color: #eee1;
+  background-color: #eee2;
   width: 200px;
   text-align: center;
   border: 2px solid #fff3;
@@ -42,8 +45,7 @@ h1 {
   transition: .3s background-color;
 }
 
-.element:hover,
-.element:active,
-.element:focus {
-  background-color: #3331;
+.element:hover {
+  background-color: #3333;
 }
+
