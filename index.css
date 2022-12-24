@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  background-color: #323232;
+  color: #fff;
+}
+
+.level {
+  height: 100vh;
+  gap: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.input {
+  text-align: left;
+}
+
+.element {
+  padding: 10px 20px;
+  background-color: #eee1;
+  width: 200px;
+  text-align: center;
+  border: 2px solid #fff3;
+  border-radius: 7px;
+  transition: .3s background-color;
+}
+
+.element:hover, .element:active, .element:focus {
+  background-color: #3331;
+}

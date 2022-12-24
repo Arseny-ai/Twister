@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>twister</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <section class="level">
+    <h1>twister</h1>
+    <input id="getPlayer" class="element input" type="text">
+    <button onclick="addPlayer()" class="element">Добавить</button>
+    <a onclick="nextMove()" href="#game" class="element">Начать</a>
+  </section>
+  <section id="game" class="level">
+    <p id="player"></p>
+    <p id="limb"></p>
+    <button class="element" onclick="nextMove()">Продолжить</button>
+  </section>
+  <script src="index.js"></script>
+</body>
+</html>
